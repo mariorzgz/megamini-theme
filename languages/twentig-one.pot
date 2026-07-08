@@ -16,7 +16,7 @@ msgstr ""
 
 #. Theme Name of the theme
 #: style.css
-msgid "Twentig One"
+msgid "megamini"
 msgstr ""
 
 #. Theme URI of the theme

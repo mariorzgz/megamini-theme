@@ -43,8 +43,8 @@ msgstr ""
 
 #. Author of the theme
 #: style.css
-msgid "Twentig"
-msgstr "Twentig"
+msgid "megamini"
+msgstr "megamini"
 
 #. Author URI of the theme
 #: style.css
