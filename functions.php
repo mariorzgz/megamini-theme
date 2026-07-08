@@ -918,8 +918,3 @@ $update_checker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChe
 
 $update_checker->addQueryArgFilter( '__return_empty_array' );
 
-/**
- * Maintenance Mode
- * Blocks front-end access for non-admin visitors.
- * Returns HTTP 503 so search engines treat downtime as temporary.
- */
