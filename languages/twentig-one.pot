@@ -26,17 +26,17 @@ msgstr ""
 
 #. Description of the theme
 #: style.css
-msgid "Twentig One is a modern and powerful WordPress block theme designed for Full Site Editing. Featuring flexible templates, post formats, color presets, font pairings, and fluid typography & spacing, it’s the ideal foundation for any project. Pair it with the Twentig plugin for starter sites, patterns, and enhanced blocks to create a stunning website — no code needed."
+msgid ""
 msgstr ""
 
 #. Author of the theme
 #: style.css
-msgid "Twentig"
+msgid ""
 msgstr ""
 
 #. Author URI of the theme
 #: style.css
-msgid "https://twentig.com"
+msgid ""
 msgstr ""
 
 #: functions.php:249
