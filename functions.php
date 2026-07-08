@@ -923,6 +923,7 @@ $update_checker->addQueryArgFilter( '__return_empty_array' );
  * Blocks front-end access for non-admin visitors.
  * Returns HTTP 503 so search engines treat downtime as temporary.
  */
+/*
 function wpc_maintenance_mode() {
 
     // Pass logged-in administrators through
@@ -949,3 +950,4 @@ function wpc_maintenance_mode() {
     );
 }
 add_action( 'template_redirect', 'wpc_maintenance_mode' );
+*/
