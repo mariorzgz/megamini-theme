@@ -9,34 +9,29 @@
 			"defaultPalette": false,
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#FAFAFA",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#f5f5f7",
-					"name": "Base 2",
-					"slug": "base-2"
+					"color": "#FEFF00",
+					"name": "Yellow",
+					"slug": "yellow"
 				},
 				{
-					"color": "#e5e6fa",
-					"name": "Base 3",
-					"slug": "base-3"
+					"color": "#FF0000",
+					"name": "Red",
+					"slug": "red"
 				},
 				{
-					"color": "#101012",
+					"color": "#0050FF",
+					"name": "Blue",
+					"slug": "blue"
+				},
+				{
+					"color": "#1C1C1C",
 					"name": "Contrast",
 					"slug": "contrast"
-				},
-				{
-					"color": "#000000",
-					"name": "Contrast 2",
-					"slug": "contrast-2"
-				},
-				{
-					"color": "#3740b9",
-					"name": "Accent",
-					"slug": "accent"
 				},
 				{
 					"color": "color-mix(in srgb, currentColor 62%, transparent)",
@@ -89,21 +84,6 @@
 					"name": "Transparent to Base",
 					"slug": "transparent-to-base",
 					"gradient": "linear-gradient(transparent 50%, var(--wp--preset--color--base) 50%)"
-				},
-				{
-					"name": "Accent",
-					"slug": "accent",
-					"gradient": "linear-gradient(180deg, oklch(from var(--wp--preset--color--accent) calc(l - .22) c h), var(--wp--preset--color--accent))"
-				},
-				{
-					"name": "Diagonal Accent",
-					"slug": "accent-diagonal",
-					"gradient": "linear-gradient(135deg, oklch(from var(--wp--preset--color--accent) calc(l - .22) c h), var(--wp--preset--color--accent))"
-				},
-				{
-					"name": "Analogous Accent",
-					"slug": "accent-analogous",
-					"gradient": "linear-gradient(135deg, oklch(from var(--wp--preset--color--accent) l c calc(h - var(--wp--custom--gradient-hue,45))), var(--wp--preset--color--accent), oklch(from var(--wp--preset--color--accent) l c calc(h + var(--wp--custom--gradient-hue,45))))"
 				}
 			]
 		},
