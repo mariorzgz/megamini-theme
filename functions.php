@@ -917,3 +917,35 @@ $update_checker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChe
 );
 
 $update_checker->addQueryArgFilter( '__return_empty_array' );
+
+/**
+ * Maintenance Mode
+ * Blocks front-end access for non-admin visitors.
+ * Returns HTTP 503 so search engines treat downtime as temporary.
+ */
+function wpc_maintenance_mode() {
+
+    // Pass logged-in administrators through
+    if ( is_user_logged_in() && current_user_can( 'edit_themes' ) ) {
+        return;
+    }
+
+    // Never block the WordPress admin or login page
+    if ( is_admin() ) {
+        return;
+    }
+
+    // Never block AJAX requests — required for admin functionality
+    if ( defined( 'DOING_AJAX' ) && DOING_AJAX ) {
+        return;
+    }
+
+    // Serve a 503 response to all other visitors
+    wp_die(
+        '<h1>Website Under Maintenance</h1>
+         <p>We are currently performing scheduled updates. Please check back shortly.</p>',
+        'Maintenance Mode',
+        array( 'response' => 503 )
+    );
+}
+add_action( 'template_redirect', 'wpc_maintenance_mode' );
