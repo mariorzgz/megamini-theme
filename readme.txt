@@ -1,4 +1,4 @@
-=== Twentig One ===
+=== megamini ===
 Contributors: twentig
 Requires at least: 6.9
 Tested up to: 7.0
@@ -9,6 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
+megamini
 Twentig One is a modern and powerful WordPress block theme designed for Full Site Editing. Featuring flexible templates, post formats, color presets, font pairings, and fluid typography & spacing, it's the ideal foundation for any project. Pair it with the Twentig plugin for starter sites, patterns, and enhanced blocks to create a stunning website - no code needed.
 
 == Changelog ==
