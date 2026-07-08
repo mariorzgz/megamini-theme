@@ -74,6 +74,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-feature-settings: "liga", "lnum";
 	--wp--preset--spacing--site-padding: var(--wp--style--root--padding-left);
+	background-color: red !important;
 }
 
 /* Typography & content */
